@@ -1,7 +1,8 @@
 <iframe 
-src="https://www.arcgis.com/apps/instant/basic/index.html?appid=f18a8fb639844f8291165051d1d77235" 
+src="https://www.arcgis.com/apps/instant/basic/index.html?appid=f18a8fb639844f8291165051d1d77235"
 width="400" 
 height="600" 
-frameborder="0"
-style="border:0" allowfullscreen>iFrames are not supported on this page.
+frameborder="0" 
+style="border:0" 
+allowfullscreen>iFrames are not supported on this page.
 </iframe>
