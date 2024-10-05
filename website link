@@ -6,3 +6,13 @@ frameborder="0"
 style="border:0" 
 allowfullscreen>iFrames are not supported on this page.
 </iframe>
+
+
+<iframe 
+src="https://www.arcgis.com/apps/instant/basic/index.html?appid=9f97bc904fee40eea488f4bae076eb2f" 
+width="400" 
+height="600" 
+frameborder="0" 
+style="border:0" a
+llowfullscreen>iFrames are not supported on this page.
+</iframe>
