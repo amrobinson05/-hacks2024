@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <style>
+        .center-text {
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-items">
+            <a href="index.html"><strong>Home</strong></a>
+            <a href="map.html"><strong>Maps</strong></a>
+            <a href="proposition.html"><strong>Our Proposition</strong></a>
+            <a href="method.html"><strong>Methodology</strong></a>
+        </div>
+    </nav>
+    <style>
+        .center-block {
+            width: 50%;
+            margin: 0 auto;
+            border: 1px solid #000;
+            padding: 10px;
+        }
+    </style>
+
+    <div class = "center-text">
+        <h1>
+
+            <strong>The Maps that Tell Our Story:</strong>
+        </h1> 
+            <p>
+                This first map shows the percentage of reported obese adults by county.
+
+            </p>
+            <p>
+                Explore by clicking on the counties for more information!
+            </p>
+        
+            <div class="center-block">
+                <iframe 
+                    src="https://www.arcgis.com/apps/instant/basic/index.html?appid=f18a8fb639844f8291165051d1d77235" 
+                    width="700"
+                    height="600" 
+                    frameborder="0"
+                    style="border:0">
+                </iframe>
+                
+                <p>
+                    This map highlights farmers' markets that accept SNAP benefits and shades the counties according to SNAP eligibility percentages
+                </p>
+
+                <iframe 
+                    src="https://www.arcgis.com/apps/instant/basic/index.html?appid=9f97bc904fee40eea488f4bae076eb2f" 
+                    width="700" 
+                    height="600" 
+                    frameborder="0" 
+                    style="border:0">
+                </iframe>
+                <p>
+                    Exploring these two maps in tandem shows a tendency for the higher rates of obesity to exist in counties with higher eligibilities for the SNAP program. 
+                    <strong>This is not a coincidence.  </strong>
+                    It is called the obesity paradox. The theory behind this phenomena that we aim to address is the lower cost of highly processed foods.
+                    The lack of accessability to affordable fresh produce creates a financial barrier to health.
+    
+                </p>
+            
+
+        </div>
+        <div id="mapDiv"></div>
+    
+</body>
